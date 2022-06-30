@@ -768,6 +768,9 @@ case "${targ}" in
     targ_defvec=i386_elf32_vxworks_vec
     targ_underscore=yes
     ;;
+  i[3-7]86-*-run386)
+    targ_defvec=i386_elf32_vec
+    ;;
 
   ia16-*-elf)
     targ_defvec=i386_elf32_vec

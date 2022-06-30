@@ -31,6 +31,7 @@ case $targ in
  ia64-*-hpux* | \
  *-*-vxworks* | \
  mt-*-* | \
+ *-*-run386 | \
  null)
     echo "*** Configuration $targ is obsolete." >&2
     echo "*** Support has been REMOVED." >&2
